@@ -2,6 +2,8 @@
 
 A polished, responsive website for a neighborhood coffee shop. The experience combines a warm editorial design with a filterable menu, persistent shopping cart, daily offer, and a complete pickup-order flow.
 
+**Live website:** [azzaalmousli.github.io/the-cozy-corner](https://azzaalmousli.github.io/the-cozy-corner/)
+
 ## Features
 
 - Responsive layout for desktop, tablet, and mobile
