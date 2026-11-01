@@ -1,173 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo.avif" >
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" 
-    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>the cofee shop</title>
-    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The Cozy Corner — thoughtfully sourced coffee, fresh pastries, and a warm place to unwind.">
+  <meta name="theme-color" content="#241207">
+  <link rel="icon" href="img/logo.avif">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>The Cozy Corner | Coffee & Pastries</title>
 </head>
 <body>
-    <header>
-        <div class="icon">
-            <a>
-                <img src="img/coffee-cup.png" alt="coffee-cup" height="40px" width="40px">
-            </a>
-        </div>
-        <!-- <div>
-            <i class="fa-solid fa-bars"></i>
-        </div> -->
-        <nav>
-            <ul class="header-list">
-                <li><a href="#background1">Home</a></li>
-                <li><a href="#menu">Menu</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="right-header">
-            <i class="fa-sharp fa-solid fa-cart-shopping"></i>
-            <a>
-                <img class="profile" src="img/woman.png" alt="profile pic" >
-            </a>
-            
-        </div>
-    </header>
-    <main>
-        <section id="background1" >
-            <div >
-                <div class="first">
-                    <h1>The<br>Cozy Corner</h1>
-                    <p>"Your daily escape, one cup at a time"</p>
-                </div>
-                <div class="buttons">
-                    <button>Order</button>
-                    <button>Offers</button>
-                </div>
-                <div class="picture">
-                    
-                </div>
-                
-            </div>
-        </section>
-                <section class="background2">
-            <div class="overlay2">
-                <div class="box2">
-                    <h1>Essence Of Coffee</h1>
-                    <p>At Cozy Corner, we believe great coffee starts with handpicked beans.<br>
-                        We source only the finest coffee from around the world, 
-                        ensuring every cup is rich, flavorful, and full of character
-                        what makes our coffee special is:
-                    </p>
-                </div>
-                <div class="container">
-                    <ul class="list">
-                        <li>Ethically sourced from trusted farms in South America, Africa, and Asia.</li>
-                        <li>Handpicked for quality and flavor.</li>
-                        <li>Expertly roasted to bring out the perfect balance of boldness and subtle notes</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <section id="menu" class="background2">
-            <div class="overlay3">
-                <div>
-                    <div>
-                        <h1> Menu</h1>
-                        <div class="pic4">
-                            <img src="img/pic1.png" alt="cofee pic1">
-                            <img src="img/pic2.png" alt="cofee pic2">
-                            <img src="img/pic3.png" alt="cofee pic3">
-                            <img src="img/pic4.png" alt="cofee pic4">
-                        </div>
-                    </div>
-                    <div class="main-menu">
-                        <div class="menu-category">
-                            <h2 class="category-title">Hot Coffees</h2>
-                            <div class="menu-item">
-                                <div class="item-name">Latte</div>
-                                <div class="item-description">A smooth espresso combined with steamed milk.</div>
-                                <div class="item-price">$4.50</div>
-                            </div>
-                            <div class="menu-item">
-                                <div class="item-name">Cappuccino</div>
-                                <div class="item-description">Espresso with steamed milk foam, a classic favorite.</div>
-                                <div class="item-price">$3.80</div>
-                            </div>
-                        </div>
-                        <div class="menu-category">
-                            <h2 class="category-title">Cold Beverages</h2>
-                            <div class="menu-item">
-                                <div class="item-name">Iced Vanilla Latte</div>
-                                <div class="item-description">Chilled espresso with vanilla syrup and milk.</div>
-                                <div class="item-price">$5.00</div>
-                            </div>
-                            <div class="menu-item">
-                                <div class="item-name">Iced Coffee</div>
-                                <div class="item-description">Cold brewed coffee served over ice.</div>
-                                <div class="item-price">$3.50</div>
-                            </div>
-                        </div>
-                            <div class="menu-category">
-                                <h2 class="category-title">Pastries</h2>
-                                <div class="menu-item">
-                                    <div class="item-name">Croissant</div>
-                                    <div class="item-description">Fresh, buttery, and flakey croissant.</div>
-                                    <div class="item-price">$2.50</div>
-                                </div>
-                                <div class="menu-item">
-                                    <div class="item-name">Chocolate Muffin</div>
-                                    <div class="item-description">Decadent muffin with rich chocolate chips.</div>
-                                    <div class="item-price">$3.00</div>
-                                </div>
-                            </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <a class="brand" href="#home" aria-label="The Cozy Corner home"><img src="img/coffee-cup.png" alt="" width="48" height="48"><span>The Cozy Corner</span></a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav id="primary-nav" aria-label="Primary navigation"><a href="#home">Home</a><a href="#story">Our story</a><a href="#menu">Menu</a><a href="#contact">Contact</a></nav>
+    <button class="cart-button" type="button" aria-label="Open cart, 0 items" data-open-cart><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h2l2.2 10.2a2 2 0 0 0 2 1.6h7.7a2 2 0 0 0 2-1.6L20.4 7H6M10 20a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm8 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg><span class="cart-count" aria-hidden="true">0</span></button>
+  </header>
 
-        <section class="background2">
-            <div class="overlay"></div>
-            <div class="box">
-                <div class="div-image1">
-                    <img src="img/cup.png" alt="cofee beans" class="image1">
-                </div>
-                <div class="text">
-                    <h1>About Us</h1>
-                    <p>At Cozy Corner, we believe that a cup of coffee is more than just a drink—it’s a moment of comfort,
-                        a chance to relax, and an opportunity to connect. Nestled in the heart of the neighborhood, 
-                        we’ve created a warm and inviting space where everyone can feel at home,
-                        whether you’re here for your daily caffeine boost or simply seeking a quiet place to unwind.
-                        Our coffee is carefully brewed from the finest beans, sourced from local roasters who share our passion for quality.
-                        Every cup is crafted with love and care, ensuring that each sip brings you a little joy. We offer more than just coffee;
-                        our menu features a variety of freshly baked treats, soothing teas, and delicious snacks that pair perfectly with your favorite brew
-                    </p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer id="contact">
-        <h1 class="greet"> THANK YOU </h1>
-        <div>
-            <h1>Our Contact</h1>
-            <ul>
-                <Div class="phone">
-                    <i class="fa-solid fa-phone-volume"></i>
-                    <li ><a href="tel:05672439381">05672439381</a></li>
-                </Div>
-                <div class="email">
-                    <i class="fa-duotone fa-regular fa-envelope"></i>
-                    <li><a href="email:cozycorner@gmail.com">cozycorner@gmail.com</li>
-                </div>
-                <div class="location">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <li><a href="location:245 garden St. England" >245 garden St. England</li>
-                </div>
-            </ul>
-        </div>
-    </footer>
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-shade"></div>
+      <div class="hero-content reveal"><p class="eyebrow">Your neighborhood coffee house</p><h1>A little corner<br><em>made for you.</em></h1><p class="hero-copy">Slow mornings, honest coffee, and the kind of comfort that stays with you.</p><div class="hero-actions"><a class="button button-primary" href="#menu">Explore the menu</a><button class="button button-secondary" type="button" data-open-offer>Today’s offer</button></div></div>
+      <a class="scroll-cue" href="#story" aria-label="Scroll to our story"><span>Discover</span><span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="section-heading reveal"><div><p class="eyebrow">Coffee with character</p><h2>Good coffee starts<br>with good choices.</h2></div></div>
+      <div class="story-layout"><div class="story-copy reveal"><p>We select vibrant coffees from trusted farms and roast them to celebrate their natural sweetness. Every cup is made carefully, without rushing the moment.</p><a class="text-link" href="#about">Meet The Cozy Corner <span aria-hidden="true">→</span></a></div><ol class="values reveal"><li><span>01</span><div><h3>Thoughtfully sourced</h3><p>Long-term relationships with responsible farms across Africa, Asia, and South America.</p></div></li><li><span>02</span><div><h3>Roasted with purpose</h3><p>Small batches developed to reveal balance, aroma, and a naturally rich finish.</p></div></li><li><span>03</span><div><h3>Made for the moment</h3><p>Prepared by hand and served with genuine care, every single time.</p></div></li></ol></div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="menu-heading reveal"><div><p class="eyebrow">Something for every mood</p><h2>Our favorites</h2></div><div class="menu-filters" role="group" aria-label="Filter menu"><button class="filter active" type="button" data-filter="all" aria-pressed="true">All</button><button class="filter" type="button" data-filter="coffee" aria-pressed="false">Coffee</button><button class="filter" type="button" data-filter="cold" aria-pressed="false">Cold</button><button class="filter" type="button" data-filter="pastry" aria-pressed="false">Pastries</button></div></div>
+      <div class="menu-grid">
+        <article class="menu-card reveal" data-category="coffee" data-name="Velvet Latte" data-price="4.50"><img src="img/pic1.png" alt="Velvet latte with delicate leaf art" width="500" height="500"><div class="card-content"><div><p class="card-type">Hot coffee</p><h3>Velvet Latte</h3><p>Double espresso and silky steamed milk.</p></div><div class="card-bottom"><strong>$4.50</strong><button type="button" class="add-button" aria-label="Add Velvet Latte to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+        <article class="menu-card reveal" data-category="coffee" data-name="Classic Cappuccino" data-price="3.80"><img src="img/pic2.png" alt="Classic cappuccino topped with latte art" width="500" height="500"><div class="card-content"><div><p class="card-type">Hot coffee</p><h3>Classic Cappuccino</h3><p>Espresso, warm milk, and cloud-like foam.</p></div><div class="card-bottom"><strong>$3.80</strong><button type="button" class="add-button" aria-label="Add Classic Cappuccino to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+        <article class="menu-card reveal" data-category="coffee" data-name="House Flat White" data-price="4.20"><img src="img/pic4.png" alt="Freshly prepared flat white coffee" width="500" height="500"><div class="card-content"><div><p class="card-type">Hot coffee</p><h3>House Flat White</h3><p>Ristretto and velvety microfoam, rich and smooth.</p></div><div class="card-bottom"><strong>$4.20</strong><button type="button" class="add-button" aria-label="Add House Flat White to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+        <article class="menu-card reveal" data-category="cold" data-name="Iced Vanilla Latte" data-price="5.00"><img src="img/iced-vanilla-latte.png" alt="Iced vanilla latte with creamy espresso swirls" width="500" height="500"><div class="card-content"><div><p class="card-type">Cold coffee</p><h3>Iced Vanilla Latte</h3><p>Espresso, milk, ice, and fragrant vanilla.</p></div><div class="card-bottom"><strong>$5.00</strong><button type="button" class="add-button" aria-label="Add Iced Vanilla Latte to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+        <article class="menu-card reveal" data-category="cold" data-name="Slow Cold Brew" data-price="4.40"><img src="img/cold-brew.png" alt="Cold brew coffee over ice in a tall glass" width="500" height="500"><div class="card-content"><div><p class="card-type">Cold coffee</p><h3>Slow Cold Brew</h3><p>Steeped for 18 hours for a bold, mellow finish.</p></div><div class="card-bottom"><strong>$4.40</strong><button type="button" class="add-button" aria-label="Add Slow Cold Brew to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+        <article class="menu-card reveal" data-category="pastry" data-name="Butter Croissant" data-price="2.80"><img src="img/butter-croissant.png" alt="Golden flaky butter croissant" width="500" height="500"><div class="card-content"><div><p class="card-type">Fresh pastry</p><h3>Butter Croissant</h3><p>Flaky, golden, and baked fresh each morning.</p></div><div class="card-bottom"><strong>$2.80</strong><button type="button" class="add-button" aria-label="Add Butter Croissant to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+        <article class="menu-card reveal" data-category="pastry" data-name="Chocolate Muffin" data-price="3.20"><img src="img/chocolate-muffin.png" alt="Rich chocolate muffin with chocolate chips" width="500" height="500"><div class="card-content"><div><p class="card-type">Fresh pastry</p><h3>Chocolate Muffin</h3><p>Deep cocoa crumb with melting chocolate chips.</p></div><div class="card-bottom"><strong>$3.20</strong><button type="button" class="add-button" aria-label="Add Chocolate Muffin to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+        <article class="menu-card reveal" data-category="pastry" data-name="Cinnamon Roll" data-price="3.60"><img src="img/cinnamon-roll.png" alt="Glazed cinnamon roll on a ceramic plate" width="500" height="500"><div class="card-content"><div><p class="card-type">Fresh pastry</p><h3>Cinnamon Roll</h3><p>Soft-baked swirls with cinnamon and cream glaze.</p></div><div class="card-bottom"><strong>$3.60</strong><button type="button" class="add-button" aria-label="Add Cinnamon Roll to cart">Add <span aria-hidden="true">＋</span></button></div></div></article>
+      </div>
+    </section>
+
+    <section class="about section" id="about"><div class="about-image reveal"><img src="img/cup.png" alt="A warm cup of coffee on a saucer" width="700" height="700"></div><div class="about-copy reveal"><p class="eyebrow">Stay awhile</p><h2>Your pause<br>in the day.</h2><p>We built The Cozy Corner as a warm, welcoming place to slow down. Come for a carefully brewed coffee, settle in with something freshly baked, and leave a little lighter than you arrived.</p><div class="hours"><span>Mon–Fri</span><strong>7:00 AM – 8:00 PM</strong><span>Sat–Sun</span><strong>8:00 AM – 9:00 PM</strong></div></div></section>
+
+    <section class="contact section" id="contact"><div class="contact-intro reveal"><p class="eyebrow">Come say hello</p><h2>There’s always<br>a seat for you.</h2><p>Questions, celebrations, or just a coffee recommendation? We’d love to hear from you.</p></div><div class="contact-details reveal"><a href="https://maps.google.com/?q=245+Garden+Street+England" target="_blank" rel="noopener"><span>Visit</span><strong>245 Garden Street<br>England</strong><i aria-hidden="true">↗</i></a><a href="tel:+445672439381"><span>Call</span><strong>+44 567 243 9381</strong><i aria-hidden="true">↗</i></a><a href="mailto:hello@cozycorner.coffee"><span>Email</span><strong>hello@cozycorner.coffee</strong><i aria-hidden="true">↗</i></a></div></section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#top"><img src="img/coffee-cup.png" alt="" width="48" height="48"><span>The Cozy Corner</span></a><p>Handcrafted coffee. Everyday comfort.</p><p>© <span id="year"></span> The Cozy Corner</p></footer>
+  <div class="backdrop" data-close-dialog hidden></div>
+  <aside class="cart-drawer" aria-labelledby="cart-title" aria-hidden="true"><div class="drawer-header"><div><p class="eyebrow">Your order</p><h2 id="cart-title">Cart</h2></div><button class="icon-button" type="button" data-close-dialog aria-label="Close cart">×</button></div><div class="cart-items" aria-live="polite"><div class="empty-cart"><span>☕</span><h3>Your cart is empty</h3><p>Add a favorite from the menu to get started.</p></div></div><div class="cart-summary"><div><span>Subtotal</span><strong class="cart-total">$0.00</strong></div><button class="button button-primary checkout-button" type="button" disabled>Place order</button><small>Pickup only · Pay when you collect</small></div></aside>
+  <dialog class="offer-dialog"><button class="icon-button" type="button" data-close-dialog aria-label="Close offer">×</button><p class="eyebrow">Today’s little treat</p><h2>Any pastry,<br>half the price.</h2><p>Pair a pastry with any handcrafted drink and enjoy 50% off the pastry. Available today in store.</p><a class="button button-primary" href="#menu" data-close-dialog>Choose your favorite</a></dialog>
+  <dialog class="success-dialog"><div class="success-icon">✓</div><p class="eyebrow">Order received</p><h2>We’ll get it brewing.</h2><p>Your pickup number is <strong class="order-number"></strong>. We’ll have it ready in about 10–15 minutes.</p><button class="button button-primary" type="button" data-close-dialog>Done</button></dialog>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
 </body>
 </html>

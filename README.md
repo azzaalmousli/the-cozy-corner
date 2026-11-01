@@ -1,75 +1,70 @@
-# ☕ The Cozy Corner
+# The Cozy Corner
 
-A responsive coffee shop website built with **HTML and CSS**, designed to present a warm and modern online presence for a fictional coffee shop.
+A polished, responsive website for a neighborhood coffee shop. The experience combines a warm editorial design with a filterable menu, persistent shopping cart, daily offer, and a complete pickup-order flow.
 
-The website includes a landing page, coffee menu, brand story, contact information, and responsive styling for different screen sizes.
+## Features
 
-## ✨ Features
+- Responsive layout for desktop, tablet, and mobile
+- Filterable coffee, cold drink, and pastry menu
+- Persistent cart using browser local storage
+- Quantity controls and live subtotal calculation
+- Pickup-order confirmation with an order number
+- Daily-offer modal and mobile navigation
+- Semantic HTML, accessible labels, keyboard support, and reduced-motion styles
+- Optimized, item-specific product photography
 
-- Responsive coffee shop landing page
-- Fixed navigation bar
-- Hero section with call-to-action
-- Coffee menu and product presentation
-- "Essence of Coffee" section
-- About Us section
-- Contact information and footer
-- Custom images and visual assets
-- Responsive layout using CSS media queries
-
-
-
-## 📸 Application Screenshots
-
-### Homepage
-![The Cozy Corner Homepage](screenshots/homepage.png)
-
-### Coffee Menu
-![Coffee Menu](screenshots/menu.png)
-
-### Contact
-![Contact Section](screenshots/contact.png)
-
-
-## 🛠️ Technologies
+## Technologies
 
 - HTML5
 - CSS3
-- Responsive Web Design
-- CSS Media Queries
-- Git & GitHub
-- Vercel
+- Vanilla JavaScript
+- Browser Local Storage
+- GitHub Pages
 
-## 📁 Project Structure
+## Project structure
 
 ```text
 the-cozy-corner/
-│
-├── img/
-│   └── website assets
-│
-├── index.html
-├── styles.css
+├── img/           # Brand and menu imagery
+├── index.html     # Page structure and content
+├── styles.css     # Responsive styling and design system
+├── script.js      # Menu, cart, offers, and checkout behavior
 ├── .gitignore
 └── README.md
 ```
 
-## 🚀 Running Locally
+## Run locally
 
-Clone the repository:
+No build step or dependencies are required.
+
+1. Clone the repository.
+2. Open `index.html` in a modern browser.
+
+For a local HTTP server, run one of the following from the project folder:
 
 ```bash
-git clone https://github.com/azzaalmousli/the-cozy-corner.git
+npx serve .
 ```
 
-Open the project folder and launch `index.html` in your browser.
+or:
 
-No additional dependencies or installation are required.
+```bash
+python -m http.server 8000
+```
 
-## 💡 What This Project Demonstrates
+## Deploy with GitHub Pages
 
-- Semantic HTML structure
-- CSS styling and layouts
-- Responsive web design
-- Navigation and section-based page structure
-- Visual asset integration
-- Front-end website deployment
+1. Open the repository's **Settings**.
+2. Select **Pages** under **Code and automation**.
+3. Under **Build and deployment**, select **Deploy from a branch**.
+4. Choose the `main` branch and `/ (root)` folder, then save.
+
+The site contains no server-side dependencies and can be published directly from the repository root.
+
+## Accessibility
+
+The interface includes a skip link, semantic landmarks, descriptive image text, accessible control labels, keyboard-operable dialogs, and reduced-motion behavior for visitors who request it.
+
+## Author
+
+Developed by [Azza Almousli](https://github.com/azzaalmousli).

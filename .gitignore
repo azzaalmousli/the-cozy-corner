@@ -1,9 +1,14 @@
-@"
-# IDE
+# Editor settings
 .vscode/
 .idea/
 
-# OS files
+# Operating-system files
 .DS_Store
 Thumbs.db
-"@ | Set-Content .gitignore
+Desktop.ini
+
+# Local development
+node_modules/
+*.log
+.env
+.env.*
